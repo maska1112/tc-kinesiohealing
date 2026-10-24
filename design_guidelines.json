@@ -1,0 +1,118 @@
+{
+  "theme": "light",
+  "app_type": "marketing_site",
+  "typography": {
+    "headings": {
+      "family": "Bookman Old Style, Playfair Display, serif",
+      "weights": ["400", "600"],
+      "usage": "Use for all H1, H2, H3. H1 should not exceed text-5xl on desktop. Elegant, classic, calming feel."
+    },
+    "body": {
+      "family": "Montserrat, Poppins, sans-serif",
+      "weights": ["300", "400", "500"],
+      "usage": "Use for all paragraphs, navigation, and UI elements. Ensure high readability."
+    },
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl tracking-tight leading-tight",
+      "h2": "text-3xl sm:text-4xl tracking-tight leading-snug",
+      "h3": "text-2xl sm:text-3xl leading-snug",
+      "body": "text-base sm:text-lg leading-relaxed text-slate-800"
+    }
+  },
+  "colors": {
+    "primary": "#08c2db",
+    "primary_hover": "#06a5ba",
+    "secondary": "#0b7896",
+    "background": "#F9FAFB",
+    "surface": "#FFFFFF",
+    "text": {
+      "main": "#1F2937",
+      "muted": "#4B5563",
+      "inverse": "#FFFFFF"
+    },
+    "rules": "Use primary turquoise for CTAs and highlights. Use secondary deep teal for rich background sections to contrast with the light theme. Maintain strict minimal color palette, avoiding gradients and extra colors. Minimalist wellness vibe."
+  },
+  "layouts": {
+    "spacing": "Generous spacing. Use py-20 to py-32 for sections to feel unhurried and spacious.",
+    "containers": "Max width for content blocks to avoid long line lengths (max-w-7xl for layout, max-w-3xl for text-heavy sections).",
+    "cards": "Subtle corner rounding (rounded-xl). Subtle ambient shadow (shadow-sm) on hover. Do not overuse cards; use them only to improve clarity.",
+    "borders": "Keep borders minimal and elegant (e.g., border-slate-100 or border-teal-900/10 for contrast)."
+  },
+  "components": {
+    "header": "Sticky navigation. MUST NOT have transparent background. Use bg-white/95 backdrop-blur-md border-b border-gray-100. Includes Logo, Nav Links, and primary 'Rezerviraj termin' button.",
+    "buttons": "Pill-shaped (rounded-full) or softly rounded (rounded-lg). Solid turquoise for primary CTA, outline for secondary. Add subtle hover lift and color shift.",
+    "cards_pillar": "3 pillar cards (Bolečina, Napredek, Samostojnost) acting as elegant entry points. Clean image/icon, clear title, short intro, 'Preberi več' link.",
+    "forms": "Minimalist input fields with clean borders, ample padding, clear focus states (ring-2 ring-primary).",
+    "accordions": "Use Shadcn accordion for FAQ sections. Clean separators, minimalist styling.",
+    "carousels": "Use Shadcn carousel or Swiper for Kinesio-Gym photos and testimonials."
+  },
+  "animations": {
+    "interaction": "Subtle fade-ins on scroll. Gentle hover state lifts (-translate-y-1).",
+    "transitions": "Avoid 'transition-all'. Use specific transition properties (e.g., transition-colors, transition-transform).",
+    "restrictions": "No excessive parallax, no generic bouncing, respect prefers-reduced-motion."
+  },
+  "image_urls": {
+    "logo": "https://tc-kinesiohealing.com/wp-content/uploads/2024/01/cropped-Kinesiohealing-1.png",
+    "logo_icon": "https://tc-kinesiohealing.com/wp-content/uploads/2024/01/cropped-logo_final-03-2-300x300.png",
+    "hero_home": "https://tc-kinesiohealing.com/wp-content/uploads/2026/07/website-header-SLO-copy.png",
+    "guidelines": "Do not curate or invent stock images. Only use these provided assets. If an image is missing for a section (e.g., portrait 4:5 Kinesio-Gym photos, Programs 1:1 covers, Ninja 3:2, Loyalty Club 9:16), use a clean, branded solid color placeholder with the secondary color (#0b7896) or render the textual content cleanly in a designed aspect-ratio container until the owner uploads them."
+  },
+  "pages_and_content_structure": {
+    "global": "Slovenian language. DO NOT rewrite, paraphrase, or translate any text.",
+    "navigation": ["Domov", "Bolečina", "Napredek", "Samostojnost", "Programi", "O meni", "Kontakt"],
+    "homepage": {
+      "hero": "Hero section using provided image (Vsaka bolečina pripoveduje zgodbo). Headline from original.",
+      "intro": "Clean text block, readable width.",
+      "pillars": "Three cards: Bolečina, Napredek, Samostojnost.",
+      "kinesio_gym": "Carousel of 10 portrait 4:5 images (use placeholders with correct aspect ratio if real images not provided).",
+      "announcement": "RanchGirl announcement, bullet list, portrait poster.",
+      "ninja_movement": "Dedicated section with 3:2 photo.",
+      "programs": "Grid of 3 products (1:1 cover images, price, 'Dodaj v košarico' / 'Preberi več').",
+      "loyalty_club": "Portrait 9:16 image. Groups: values list, how to enter, benefits, closing note.",
+      "testimonials": "5 long English quotes, tagged 'Movement therapy' / 'Hybrid conditioning'.",
+      "footer": "Logo, tagline 'Celostni pristop do zdravja, dolgoživosti in odpornosti.', social links."
+    },
+    "subpages_pillars": {
+      "pages": ["Bolečina", "Napredek", "Samostojnost"],
+      "structure": "Hero photo + kicker + headline + intro. 'Komu je namenjena' checklist. Process steps. Pricing cards (Bolečina: 70€/260€/480€; Napredek: 60€ + semi-private monthly). 'Naredi prvi korak' CTA band (booking link). 'Pogoji sodelovanja' conditions list. FAQ accordion."
+    },
+    "programi": "Product grid.",
+    "o_meni": "Portrait photo, long story text, 'Zakaj Kinesiohealing?' philosophy, Izkušnje list, Izobrazba list, professional development list.",
+    "kontakt": "Address/email/phone/hours info, contact form (name, email, phone optional, message), booking card.",
+    "ninja_and_ranchgirl": "Subpages with embedded Tally questionnaire iframe.",
+    "external_links": {
+      "booking": "https://tc-kinesiohealing.setmore.com"
+    }
+  },
+  "accessibility": {
+    "contrast": "Ensure sufficient contrast between text and backgrounds. Text on turquoise or teal must be verified (use white text on teal, dark slate on off-white).",
+    "focus": "Clear focus rings on all interactive elements.",
+    "testing": "All interactive and key informational elements MUST include a 'data-testid' attribute (e.g., data-testid='nav-home-link', data-testid='hero-booking-cta')."
+  },
+  "instructions_to_main_agent": [
+    "Use .js/.jsx extensions for React components, NOT .tsx. Provide code meant for standard JavaScript.",
+    "The site requires a React Router setup to handle the multi-page structure (Domov, Bolečina, Napredek, Samostojnost, Programi, O meni, Kontakt, Ninja, RanchGirl).",
+    "Use raw HTML/Tailwind for structural layout and Shadcn for interactive components (Accordion, Carousel, Inputs).",
+    "Strictly adhere to the Slovenian copy provided. Do not translate or re-write any text.",
+    "Only use the exact image URLs provided in the guidelines. Do not use random Unsplash images.",
+    "Maintain the turquoise and deep teal brand colors meticulously.",
+    "Ensure Header nav is not transparent on scroll or load (use bg-white or bg-white/95).",
+    "Use appropriate layout widths, keeping text elements constrained for optimal reading (e.g. max-w-prose)."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "You tend to converge toward generic, 'on distribution' outputs. Avoid this: make creative, distinctive frontends that surprise and delight.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur) only where appropriate, but NOT for transparent headers.",
+    "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms.",
+    "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file.",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style.",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Prioritize using pre-existing components from src/components/ui when applicable.",
+    "Use sonner for toasts. Sonner component are located in /app/src/components/ui/sonner.js."
+  ]
+}

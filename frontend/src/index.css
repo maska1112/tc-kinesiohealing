@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        /* Kinesiohealing brand: turquoise #08c2db, deep teal #0b7896, ink #0f3440 */
+        --brand: 187 93% 45%;
+        --brand-deep: 193 86% 32%;
+        --ink: 194 62% 15%;
+        --mist: 188 40% 95%;
+        --paper: 180 20% 98.5%;
+
+        --background: 180 20% 98.5%;
+        --foreground: 194 62% 15%;
+        --card: 0 0% 100%;
+        --card-foreground: 194 62% 15%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 194 62% 15%;
+        --primary: 193 86% 32%;
+        --primary-foreground: 0 0% 100%;
+        --secondary: 188 40% 95%;
+        --secondary-foreground: 194 62% 15%;
+        --muted: 188 30% 94%;
+        --muted-foreground: 194 18% 36%;
+        --accent: 187 93% 45%;
+        --accent-foreground: 194 62% 15%;
+        --destructive: 0 72% 45%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 190 22% 88%;
+        --input: 190 22% 84%;
+        --ring: 187 93% 45%;
+        --radius: 0.875rem;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+        @apply bg-background text-foreground font-sans antialiased;
+        font-size: 16px;
+        overflow-x: hidden;
+    }
+    h1, h2, h3, h4 {
+        @apply font-serif;
+        font-weight: 400;
+        letter-spacing: -0.01em;
+    }
+    ::selection {
+        background: hsl(var(--brand) / 0.25);
+        color: hsl(var(--ink));
+    }
+    :focus-visible {
+        outline: 2px solid hsl(var(--brand));
+        outline-offset: 3px;
+    }
+}
+
+@layer components {
+    .container-site {
+        @apply mx-auto w-full max-w-[1200px] px-5 sm:px-8 lg:px-10;
+    }
+    .kicker {
+        @apply inline-flex items-center gap-3 text-[11px] sm:text-xs font-semibold uppercase tracking-[0.22em] text-brand-deep;
+    }
+    .kicker::before {
+        content: "";
+        @apply block h-px w-8 bg-brand;
+    }
+    .prose-site p + p {
+        @apply mt-5;
+    }
+    .prose-site p {
+        @apply text-[15px] sm:text-[17px] leading-[1.8] text-ink/80;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+}

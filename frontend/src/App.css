@@ -1,0 +1,10 @@
+.ink-link {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.35s ease;
+}
+.ink-link:hover {
+  background-size: 100% 1px;
+}
