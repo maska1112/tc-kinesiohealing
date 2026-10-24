@@ -114,30 +114,30 @@ export const PRODUCTS = [
   },
 ];
 
-export const TESTIMONIALS_TITLE = "Client Testimonials";
+export const TESTIMONIALS_TITLE = "Mnenja strank";
 export const TESTIMONIALS = [
   {
-    text: "Working out with Tea helped me discover new positions, new functions of the body, which I probably would not have explored on my own. Often, she helped me to get in touch with myself after a stressful day at work. Sessions brought me the joy of exploring and surpassing my own mobility and ease of movement.",
+    text: "Vadba s Teo mi je pomagala odkriti nove položaje in nove funkcije telesa, ki jih sama najbrž ne bi raziskala. Pogosto mi je pomagala, da sem po stresnem dnevu v službi spet prišla v stik s sabo. Srečanja so mi prinesla veselje ob raziskovanju in preseganju lastne gibljivosti ter lahkotnosti gibanja.",
     tag: "Movement therapy",
     image: "/assets/tag-movement-therapy.webp",
   },
   {
-    text: "The best part of your guidance is that I am never nervous about how I will have to rationally present what is bothering me. Your management of the process eases all the nervousness around the misunderstanding and chaos in me, and you approach the process humanely and let it unfold naturally.",
+    text: "Najboljše pri tvojem vodenju je, da me nikoli ne skrbi, kako bom razumsko predstavila, kaj me teži. Tvoje vodenje procesa razblini vso nervozo ob nerazumevanju in kaosu v meni, k procesu pa pristopaš človeško in mu pustiš, da se odvije naravno.",
     tag: "Hybrid conditioning",
     image: "/assets/tag-hybrid-conditioning.webp",
   },
   {
-    text: "Golden hands, golden energy. I feel like you always choose just the right amount of \"pressure\" or intensity in our movement sessions. To put it simply: you rock!",
+    text: "Zlate roke, zlata energija. Občutek imam, da na naših gibalnih srečanjih vedno izbereš ravno pravšnjo mero »pritiska« oziroma intenzivnosti. Preprosto povedano: si super!",
     tag: "Movement therapy",
     image: "/assets/tag-movement-therapy.webp",
   },
   {
-    text: "Sessions with Tea were a really good experience for me and I would recommend it to anyone who wants to understand themselves and help themselves. Her experiences and presence are a very important factor, if we want to grow as a person and become aware of ourselves. She gives insight into our wholeness, into our essence and helps us to return to ourselves. Tea is very genuine, present and devotes herself to each appointment separately and puts a lot of effort into it. I highly recommend it!",
+    text: "Srečanja s Teo so bila zame res dobra izkušnja in jih priporočam vsakomur, ki želi razumeti sebe in si pomagati. Njene izkušnje in prisotnost so zelo pomemben dejavnik, če želimo rasti kot osebe in se zavedati sebe. Ponudi vpogled v našo celovitost, v naše bistvo in nam pomaga, da se vrnemo k sebi. Tea je zelo pristna, prisotna, vsakemu srečanju se posveti posebej in vanj vloži veliko truda. Toplo priporočam!",
     tag: "Hybrid Conditioning",
     image: "/assets/tag-hybrid-conditioning.webp",
   },
   {
-    text: "I visit Tea every 14 days. Why? Because it's important to me to dedicate a certain amount of time to reflection and personal development. I go to her because I get a different perspective and she helps me to go deeper into the situation/problem/feelings. She reminds me, time and time again, to come back to myself, to listen to my body and let it do it's thing, instead of pushing myself and over-analysing. I like working with her because she has an extraordinary feeling for human beings and knows how to adjust the therapy according to the needs, level and readiness of the client. With a wealth of knowledge in the field of movement and body structure, which she connects with psychological, spiritual and emotional processes in the individual, she helps you to look at your lifestyle and change it for the better with practical advice. Thank you!",
+    text: "K Tei hodim vsakih 14 dni. Zakaj? Ker mi je pomembno, da si vzamem določen čas za razmislek in osebni razvoj. K njej hodim, ker dobim drugačen pogled in mi pomaga, da se poglobim v situacijo/težavo/občutke. Vedno znova me opomni, naj se vrnem k sebi, prisluhnem svojemu telesu in mu pustim, da opravi svoje, namesto da se priganjam in pretirano analiziram. Rada delam z njo, ker ima izjemen občutek za ljudi in zna terapijo prilagoditi potrebam, ravni in pripravljenosti posameznika. Z bogatim znanjem s področja gibanja in zgradbe telesa, ki ga povezuje s psihološkimi, duhovnimi in čustvenimi procesi v posamezniku, ti pomaga pogledati na svoj življenjski slog in ga s praktičnimi nasveti spremeniti na bolje. Hvala!",
     tag: "Hybrid Conditioning",
     image: "/assets/tag-hybrid-conditioning.webp",
   },

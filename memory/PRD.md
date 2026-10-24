@@ -21,6 +21,9 @@ Redesign & modernize https://tc-kinesiohealing.com/ (visual + structural only). 
 - Subpages: Bolečina, Napredek (incl. monthly price table + Loyalty Club), Samostojnost, Shop, O meni, Kontakt (form + info + Setmore + map), Ninja, RanchGirl (Tally embed)
 - Verified: contact email send (202), form via UI, no horizontal overflow at 390px on all pages, no broken images
 
+## Update (2026-10-24)
+- Testimonials translated to Slovenian at user's request (title "Mnenja strank"); service tags kept as original program names
+
 ## Backlog / to verify
 - P1: Owner to confirm testimonials attribution ("Web Designer" theme placeholder omitted) and top-bar text "555, You're at the right place" (omitted)
 - P1: Product pages/cart/wishlist remain on live WooCommerce site (external links)
